@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+nav {
+    margin: auto;
+}
+
+ul.topnav {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    min-width: 410px;
+    padding: 0;
+    margin-top: 2px;
+}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    color: #493657;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-family: 'Roboto Slab';
+    font-size: 17px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+ul.topnav li a:last-child {
+    padding-right: 8px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+    /*    color: rgba(151, 239, 227, .7);*/
+    text-shadow: 2px 2px 4px #97efe3;
+}
+
+/* Begin Responsive Styles 
+--------------------------------------*/
+
+
+/* Desktops and laptops ----------- */
+@media all and (min-width:1271px) {
+
+
+
+}
+
+/*END of Desktops and laptops*/
+
+/* Tablets  (portrait and landscape) ----------- */
+@media all and (min-device-width:768px) and (max-device-width:1270px) {
+
+    /* CSS rules */
+    
+ul.topnav li a:last-child {
+    padding: 10px 16px;
+}
+
+}
+
+/*END of Tablets  (portrait and landscape)*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media all and (max-device-width:767px) {
+    /* CSS rules */
+
+ul.topnav li a:last-child {
+    padding: 10px 16px;
+}
+
+}
+
+/*END of Smartphones (portrait and landscape)*/
